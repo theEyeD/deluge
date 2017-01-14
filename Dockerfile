@@ -1,6 +1,7 @@
 FROM phusion/baseimage:0.9.15
 MAINTAINER needo <needo@superhero.org>
 ENV DEBIAN_FRONTEND noninteractive
+ENV PYTHON_EGG_CACHE = "/downloads"
 
 # Set correct environment variables
 ENV HOME /root
